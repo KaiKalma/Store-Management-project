@@ -6,6 +6,9 @@ private String color;
 
  //constuctor methods
   //no argument constructor
+ /*
+ *this no arguent constructor sets a basic set of variables for a new candy object.
+ */
 public Candy(){
   this.isGummy = true;
   this.color = "white";
