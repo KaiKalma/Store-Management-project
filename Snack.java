@@ -22,6 +22,27 @@ public Snack(String name, String flavor, double price ){
   this.flavor = flavor;
   this.price = price;
 }
+
+
+
+//
+  //parameterized construcotr
+  //this is my second one for snacks that do not include a flavor. This includes snacks like water, ice, or flavorless gum.
+  //
+public Snack(String name, double price ){
+  this.name = name;
+  this.price = price;
+}
+
+  //parameterized construcotr
+  //this sets the variables that a snack that is completely free. This is for my friends and my pets who do not need to pay.
+  //
+public Snack(String name, String flavor){
+  this.name = name;
+  this.flavor = flavor;
+}
+
+
   //
   //accessor and mutator methods
   //this allows you to access the name flavor and price
